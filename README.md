@@ -11,7 +11,6 @@ for i in user:
 for j in anotherperson:
   chrs_of_anotherperson.append(j)
 chrs_of_user,chrs_of_anotherperson=list(user),list(anotherperson)
-
 #making copy of list(user) and list(anotherperson)
 duplicate_list_user = chrs_of_user.copy()
 duplicate_list_anotherperson = chrs_of_anotherperson.copy()
